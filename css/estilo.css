@@ -1,5 +1,6 @@
 *{
     margin: 0px auto;
+    box-sizing: border-box;
 }
 
 header{
@@ -8,10 +9,11 @@ header{
 
 header img{
     width: 3%;
-    /*margin: auto;*/
-    padding-left: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 2%;
-    text-align: right;
+    
 }
 
 header .menu{
@@ -74,6 +76,12 @@ header .menu ol li:first-child{
 
 .col-6 p{
     text-align: justify;
+}
+
+.col-6 ul{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
 }
 
 footer{
