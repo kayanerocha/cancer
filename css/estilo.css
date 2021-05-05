@@ -147,6 +147,23 @@ header .menu ol li:first-child {
     padding-top: 3%;
 }
 
+.col-6 form fieldset{
+    border: 0;
+}
+
+.grupo::after{
+    clear: both;
+}
+
+.grupo::before::before, .grupo::after{
+    content: " ";
+    display: table;
+}
+
+.col-6 form fieldset input, select, textarea, button{
+    font-size: 1em;
+}
+
 footer {
     text-align: center;
     position: fixed;
