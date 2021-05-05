@@ -14,88 +14,117 @@
         <nav class="menu">
             <ol>
                 <li><img src="img/logo.png" alt="Logo"></li>
-                <li><a href="index.html"><img src="img/casa.png" alt="Ícon casa"/>Página Inicial</a></li><!-- link de onde foi tirada esta imagem: https://www.pngwing.com/pt/free-png-nszpf-->
-                <li><a href="tipos.html"><img src="img/tipo.png" alt="Ícon lista"/>Tipos de Câncer</a></li><!-- link de onde foi tirada esta imagem: https://icon-icons.com/pt/icone/nota-com-lista-quadrado-descrito-interface-simbolo/57784-->
-                <li><a href="estatisticas.html"><img src="img/estat.png" alt="Ícon gráfico"/>Estatísticas</a></li><!-- link de onde foi tirada esta imagem: https://br.pinterest.com/pin/745275438325912787/-->
-                <li><a href="contato.html"><img src="img/telefone.png" alt="Ícon telefone"/>Contato</a></li><!--link de onde foi tirada esta imagem: https://pt.vecteezy.com/arte-vetorial/2079984-phone-icon-flat-style-isolated-on-gray-background-telephone-symbol-call-vector-illustration-sign-for-web-and-mobile-app-->
-                <li><a href="quemsomos.html"><img src="img/pessoas.png" alt="Ícon pessoas"/>Quem Somos</a></li><!-- link de onde foi tirada esta imagem: https://www.pngwing.com/pt/free-png-pdmdw-->
+                <li><a href="index.html"><img src="img/casa.png" alt="Ícon casa" />Página Inicial</a></li>
+                <!-- link de onde foi tirada esta imagem: https://www.pngwing.com/pt/free-png-nszpf-->
+                <li><a href="tipos.html"><img src="img/tipo.png" alt="Ícon lista" />Tipos de Câncer</a></li>
+                <!-- link de onde foi tirada esta imagem: https://icon-icons.com/pt/icone/nota-com-lista-quadrado-descrito-interface-simbolo/57784-->
+                <li><a href="estatisticas.html"><img src="img/estat.png" alt="Ícon gráfico" />Estatísticas</a></li>
+                <!-- link de onde foi tirada esta imagem: https://br.pinterest.com/pin/745275438325912787/-->
+                <li><a href="contato.html"><img src="img/telefone.png" alt="Ícon telefone" />Contato</a></li>
+                <!--link de onde foi tirada esta imagem: https://pt.vecteezy.com/arte-vetorial/2079984-phone-icon-flat-style-isolated-on-gray-background-telephone-symbol-call-vector-illustration-sign-for-web-and-mobile-app-->
+                <li><a href="quemsomos.html"><img src="img/pessoas.png" alt="Ícon pessoas" />Quem Somos</a></li>
+                <!-- link de onde foi tirada esta imagem: https://www.pngwing.com/pt/free-png-pdmdw-->
             </ol>
         </nav>
     </header>
 
     <div class="col-3"></div>
     <div class="col-6">
-        <h1 style="padding-top: 5%;">Formulário de Contato</h1>
+        <h1 style="padding-top: 5%;">Formulário de Contato</h1><br>
         <form action="#" method="POST">
             <fieldset class="grupo">
-                <label for="nome">Nome*: </label>
-                <input type="text" required><br>
-                <label for="email">E-mail*: </label>
-                <input type="email" required><br>
-                <label for="telefone">Telefone: </label>
-                <input type="tel"><br>
-                <label for="cidade">Cidade: </label>
-                <select name="cidades" id="cidades">
-                    <option value="saopaulo">São Paulo</option>
-                    <option value="maceio">Maceió</option>
-                    <option value="santos">Santos</option>
-                    <option value="campinas">Campinas</option>
-                    <option value="arapiraca">Arapiraca</option>
-                </select><br>
-                <label for="estado">Estado: </label>
-                <select name="estados" id="estados">
-                    <optgroup label="Centro-Oeste">
-                        <option value="go">Goiás</option>
-                        <option value="mt">Mato Grosso</option>
-                        <option value="ms">Mato Grosso do Sul</option>
-                        <option value="df">Distrito Federal</option>
-                    </optgroup>
-                    <optgroup label="Norte">
-                        <option value="ac">Acre</option>
-                        <option value="am">Amazonas</option>
-                        <option value="ap">Amapá</option>
-                        <option value="pa">Pará</option>
-                        <option value="ro">Rondônia</option>
-                        <option value="rr">Roraima</option>
-                        <option value="to">Tocantins</option>
-                    </optgroup>
-                    <optgroup label="Nordeste">
-                        <option value="al">Alagoas</option>
-                        <option value="ba">Bahia</option>
-                        <option value="ce">Ceará</option>
-                        <option value="ma">Maranhão</option>
-                        <option value="pi">Pauí</option>
-                        <option value="pe">Pernambuco</option>
-                        <option value="pb">Paraíba</option>
-                        <option value="rn">Rio Grande do Norte</option>
-                        <option value="se">Sergipe</option>
-                    </optgroup>
-                    <optgroup label="Sul">
-                        <option value="pr">Paraná</option>
-                        <option value="rs">Rio Grande do Sul</option>
-                        <option value="sc">Santa Catarina</option>
-                    </optgroup>
-                    <optgroup label="Sudeste">
-                        <option value="es">Espírito Santo</option>
-                        <option value="mg">Minas Gerais</option>
-                        <option value="rj">Rio de Janeiro</option>
-                        <option value="sp">São Paulo</option>
-                    </optgroup>
-                </select><br>
-                <label for="idade">Idade: </label>
-                <input type="number"><br>
-                <label for="sexo">Sexo*: </label>
-                <input type="radio" name="sexo" checked>Feminino
-                <input type="radio" name="sexo">Masculino <br>
-                <label for="motivo">Motivo do contato*: </label>
-                <select name="motivos" id="motivos">
-                    <option value="duvida">Dúvida</option>
-                    <option value="elogio">Elogio</option>
-                    <option value="outro">Outro</option>
-                </select><br>
-                <label for="areatexto">Área de texto*: </label><br>
-                <textarea name="areatexto" id="areatexto" cols="30" rows="10" required></textarea><br>
-                <input type="submit">
+                <div class="campo">
+                    <label for="nome">Nome*: </label>
+                    <input type="text" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail*: </label>
+                    <input type="email" required>
+                </div>
+                <div class="campo">
+                    <label for="telefone">Telefone: </label>
+                    <input type="tel">
+                </div>
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="cidade">Cidade: </label>
+                        <select name="cidades" id="cidades">
+                            <option value="saopaulo">São Paulo</option>
+                            <option value="maceio">Maceió</option>
+                            <option value="santos">Santos</option>
+                            <option value="campinas">Campinas</option>
+                            <option value="arapiraca">Arapiraca</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <label for="estado">Estado: </label>
+                        <select name="estados" id="estados">
+                            <optgroup label="Centro-Oeste">
+                                <option value="go">Goiás</option>
+                                <option value="mt">Mato Grosso</option>
+                                <option value="ms">Mato Grosso do Sul</option>
+                                <option value="df">Distrito Federal</option>
+                            </optgroup>
+                            <optgroup label="Norte">
+                                <option value="ac">Acre</option>
+                                <option value="am">Amazonas</option>
+                                <option value="ap">Amapá</option>
+                                <option value="pa">Pará</option>
+                                <option value="ro">Rondônia</option>
+                                <option value="rr">Roraima</option>
+                                <option value="to">Tocantins</option>
+                            </optgroup>
+                            <optgroup label="Nordeste">
+                                <option value="al">Alagoas</option>
+                                <option value="ba">Bahia</option>
+                                <option value="ce">Ceará</option>
+                                <option value="ma">Maranhão</option>
+                                <option value="pi">Pauí</option>
+                                <option value="pe">Pernambuco</option>
+                                <option value="pb">Paraíba</option>
+                                <option value="rn">Rio Grande do Norte</option>
+                                <option value="se">Sergipe</option>
+                            </optgroup>
+                            <optgroup label="Sul">
+                                <option value="pr">Paraná</option>
+                                <option value="rs">Rio Grande do Sul</option>
+                                <option value="sc">Santa Catarina</option>
+                            </optgroup>
+                            <optgroup label="Sudeste">
+                                <option value="es">Espírito Santo</option>
+                                <option value="mg">Minas Gerais</option>
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="sp">São Paulo</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </fieldset>
+                <div class="campo">
+                    <label for="idade">Idade: </label>
+                    <input type="number">
+                </div>
+                <div class="campo">
+                    <label for="sexo">Sexo*: </label>
+                    <label class="checkbox">
+                        <input type="radio" name="sexo" checked>Feminino
+                    </label>
+                    <label class="checkbox">
+                        <input type="radio" name="sexo">Masculino
+                    </label>
+                </div>
+                <div class="campo">
+                    <label for="motivo">Motivo do contato*: </label>
+                    <select name="motivos" id="motivos">
+                        <option value="duvida">Dúvida</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="areatexto">Área de texto*: </label><br>
+                    <textarea name="areatexto" id="areatexto" cols="30" rows="10" required></textarea>
+                </div>
+                <button type="submit" class="botao submit">Enviar</button>
             </fieldset>
         </form>
     </div>
